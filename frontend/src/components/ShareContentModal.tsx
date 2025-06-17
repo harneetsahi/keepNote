@@ -23,7 +23,7 @@ export const ShareContentModal = ({ isOpen }: ShareContentModal) => {
   return (
     <>
       {isOpen && (
-        <div className="absolute right-0 top-16 dark:bg-zinc-800 bg-white border-1 dark:border-zinc-700 border-zinc-50 shadow-md flex flex-col items-start p-3 rounded-lg gap-3 text-zinc-700 ">
+        <div className="absolute right-0 top-20 dark:bg-zinc-800 bg-white border-1 dark:border-zinc-700 border-zinc-50 shadow-md flex flex-col items-start p-3 rounded-lg gap-3 text-zinc-700 ">
           <Button
             variant="tertiary"
             size="sm"
