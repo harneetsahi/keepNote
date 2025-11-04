@@ -2,29 +2,56 @@ import { Link } from "react-router-dom";
 import { Button } from "../components/Button";
 
 import { NotesIcon } from "../icons/NotesIcon";
+import { HomePageSvg } from "../icons/homePageSvg";
 import { Navbar } from "../components/Navbar";
+
+// text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-400
 
 function Home() {
   return (
     <>
       <Navbar />
-      <section className="min-h-screen">
-        <div className=" flex flex-col gap-10 justify-center items-center h-screen ">
+      <section className="">
+        <div className="absolute top-0 right-0 z-0">
+          <HomePageSvg size="sm:size-100 size-60" />
+        </div>
+        <div className=" flex flex-col gap-10 justify-center items-center h-screen z-20 ">
           <div className="relative">
             <h1
-              className="mb-3 lg:text-[94px] sm:text-[72px] text-5xl transition-all text-center text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-400 "
+              className="mb-3 lg:text-[94px] sm:text-[72px] text-5xl transition-all text-center  text-black"
               style={{ fontFamily: "Italiana" }}
             >
               KeepNote
             </h1>
             <h2
-              className=" sm:text-[26px] text-lg text-center "
+              className=" sm:text-[22px] text-sm text-center "
               style={{ fontFamily: "italiana" }}
             >
-              one place for your everyday notes
+              one place for all your notes. write and share.
             </h2>
             <div className="absolute lg:-right-30 sm:-right-16 -right-2  lg:-top-6 sm:-top-11 -top-11 transition-all">
               <NotesIcon className="sm:size-26 size-14" />
+            </div>
+          </div>
+          <div className=" flex flex-col items-center justify-center z-20 ">
+            <div className="">
+              <img
+                className="sm:w-lg w-sm rounded-lg "
+                src="../../assets/addanote.png"
+                alt="add a note"
+              />
+            </div>
+            <div className="flex md:flex-row flex-col md:justify-between items-center lg:w-200  w-full">
+              <img
+                className="lg:w-120 md:w-100 w-80 rounded-lg"
+                src="../../assets/notes.png"
+                alt="notes"
+              />
+              <img
+                className="lg:w-55 md:w-40 w-32 h-full rounded-lg"
+                src="../../assets/sharenotes.png"
+                alt="share notes"
+              />
             </div>
           </div>
           <div className="flex sm:flex-row flex-col gap-5  transition-all w-65 sm:w-max">
