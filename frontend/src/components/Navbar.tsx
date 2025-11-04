@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { NotesIcon } from "../icons/NotesIcon";
-import { Theme } from "./Theme";
-import { Button } from "./Button";
+// import { Theme } from "./Theme";
+// import { Button } from "./Button";
 
 export function Navbar() {
   return (
