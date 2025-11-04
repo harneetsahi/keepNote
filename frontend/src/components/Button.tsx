@@ -25,7 +25,7 @@ const defaultStyles = "cursor-pointer hover:shadow-xs rounded-lg ";
 
 const sizeVariant = {
   sm: "px-3 py-2 text-sm",
-  md: "px-5 py-2 text-md",
+  md: "px-4 py-2 text-md",
   lg: "px-7 py-4 text-lg",
 };
 
