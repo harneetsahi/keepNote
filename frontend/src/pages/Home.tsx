@@ -11,11 +11,11 @@ function Home() {
   return (
     <>
       <Navbar />
-      <section className="">
+      <section className=" ">
         <div className="absolute top-0 right-0 z-0">
           <HomePageSvg size="sm:size-100 size-60" />
         </div>
-        <div className=" flex flex-col gap-10 justify-center items-center h-screen z-20 ">
+        <div className=" flex flex-col gap-10 justify-center items-center sm:pt-16 pt-10 z-20 ">
           <div className="relative">
             <h1
               className="mb-3 lg:text-[94px] sm:text-[72px] text-5xl transition-all text-center  text-black"
@@ -29,27 +29,27 @@ function Home() {
             >
               one place for all your notes. write and share.
             </h2>
-            <div className="absolute lg:-right-30 sm:-right-16 -right-2  lg:-top-6 sm:-top-11 -top-11 transition-all">
-              <NotesIcon className="sm:size-26 size-14" />
+            <div className="absolute lg:-right-23 sm:-right-10 right-2  lg:-top-1 sm:-top-3 -top-7 transition-all ">
+              <NotesIcon className="lg:size-20 sm:size-18  size-10" />
             </div>
           </div>
-          <div className=" flex flex-col items-center justify-center z-20 ">
-            <div className="">
+          <div className=" flex flex-col items-center justify-center z-20 shadow-md rounded-xl backdrop-blur-xs ">
+            <div className="pt-8">
               <img
                 className="sm:w-lg w-sm rounded-lg "
-                src="./src/pictures/addanote.png"
+                src="public/addanote.png"
                 alt="add a note"
               />
             </div>
             <div className="flex md:flex-row flex-col md:justify-between items-center lg:w-200  w-full">
               <img
-                className="lg:w-120 md:w-100 w-80 rounded-lg"
-                src="./src/pictures/notes.png"
+                className="lg:w-100 md:w-100 w-80 rounded-lg"
+                src="public/notes.png"
                 alt="notes"
               />
               <img
-                className="lg:w-55 md:w-40 w-32 h-full rounded-lg"
-                src="./src/pictures/sharenotes.png"
+                className="lg:w-50 md:w-40 w-32 h-full rounded-lg"
+                src="public/sharenotes.png"
                 alt="share notes"
               />
             </div>
