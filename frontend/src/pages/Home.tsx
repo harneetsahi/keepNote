@@ -37,19 +37,19 @@ function Home() {
             <div className="pt-8">
               <img
                 className="sm:w-lg w-sm rounded-lg "
-                src="public/addanote.png"
+                src="/addanote.png"
                 alt="add a note"
               />
             </div>
             <div className="flex md:flex-row flex-col md:justify-between items-center lg:w-200  w-full">
               <img
                 className="lg:w-100 md:w-100 w-80 rounded-lg"
-                src="public/notes.png"
+                src="/notes.png"
                 alt="notes"
               />
               <img
                 className="lg:w-50 md:w-40 w-32 h-full rounded-lg"
-                src="public/sharenotes.png"
+                src="/sharenotes.png"
                 alt="share notes"
               />
             </div>
