@@ -3,7 +3,7 @@ export const HomePageSvg = ({ size = "size-5" }: { size?: string }) => {
     <>
       <svg
         viewBox="0 0 405 501"
-        fill="none"
+        fill="white"
         xmlns="http://www.w3.org/2000/svg"
         className={size}
       >
